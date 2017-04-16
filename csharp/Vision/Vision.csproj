@@ -145,7 +145,7 @@
     <Compile Include="Math\Matrix.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Runtime\Python.cs" />
-    <Compile Include="Runtime\PythonCommond.cs" />
+    <Compile Include="Runtime\PythonCommand.cs" />
     <Compile Include="Tools\ImageHelper.cs" />
   </ItemGroup>
   <ItemGroup>

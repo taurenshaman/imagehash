@@ -1,6 +1,19 @@
 ImageHash
 ===========
 
+I wanna get the image hash based on pixels value. I reached this article: https://fullstackml.com/wavelet-image-hash-in-python-3504fdd282b5
+Then I give a try:
+1. Directly translate the code from python to C#. **Failed** because pywt.wavedec2 is too complicated and the search result are all about Matlab -_-
+see csharp/Vision/Tools/ImageHelper.cs
+2. Use IronPython. **Failed** because PIL library has many .pyd files (_imaging) which are not supported by IronPython.
+see csharp/Vision/Runtime/Python.cs
+3. Use Process and commandline, redirect the output. **Worked.**
+see csharp/Vision/Runtime/PythonCommand.cs
+
+-------------
+
+Following is the original Readme
+-------------
 A image hashing library written in Python. ImageHash supports:
 
 * average hashing (`aHash`_)

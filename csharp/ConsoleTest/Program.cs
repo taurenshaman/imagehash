@@ -61,25 +61,25 @@ namespace ConsoleTest {
 
       Console.WriteLine( file1 );
       Console.WriteLine( DateTime.Now.ToLongTimeString() );
-      string hash1 = Vision.Runtime.PythonCommond.ComputeImageWHash( file1 );
+      string hash1 = Vision.Runtime.PythonCommand.ComputeImageWHash( file1 );
       Console.WriteLine( hash1 );
       Console.WriteLine( DateTime.Now.ToLongTimeString() );
 
       Console.WriteLine( file2 );
       Console.WriteLine( DateTime.Now.ToLongTimeString() );
-      string hash2 = Vision.Runtime.PythonCommond.ComputeImageWHash( file2 );
+      string hash2 = Vision.Runtime.PythonCommand.ComputeImageWHash( file2 );
       Console.WriteLine( hash2 );
       Console.WriteLine( DateTime.Now.ToLongTimeString() );
 
       Console.WriteLine( file3 );
       Console.WriteLine( DateTime.Now.ToLongTimeString() );
-      string hash3 = Vision.Runtime.PythonCommond.ComputeImageWHash( file3 );
+      string hash3 = Vision.Runtime.PythonCommand.ComputeImageWHash( file3 );
       Console.WriteLine( hash3 );
       Console.WriteLine( DateTime.Now.ToLongTimeString() );
 
       Console.WriteLine( file4 );
       Console.WriteLine( DateTime.Now.ToLongTimeString() );
-      string hash4 = Vision.Runtime.PythonCommond.ComputeImageWHash( file4 );
+      string hash4 = Vision.Runtime.PythonCommand.ComputeImageWHash( file4 );
       Console.WriteLine( hash4 );
       Console.WriteLine( DateTime.Now.ToLongTimeString() );
     }

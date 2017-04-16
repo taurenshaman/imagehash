@@ -6,7 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace Vision.Runtime {
-  public static class PythonCommond {
+  public static class PythonCommand {
     static string PythonExecutePath = @"D:\Python27\python.exe";
 
 
