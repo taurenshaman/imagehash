@@ -11,7 +11,8 @@ Then I give a try:
   see csharp/Vision/Runtime/Python.cs
 3. Use Process and commandline, redirect the output. **Worked.**
   see csharp/Vision/Runtime/PythonCommand.cs
-4. If considering deployment, ImageHash can be a service with python backend. The **simplest way**.
+4. If considering deployment, ImageHash can be a service with python backend. The **simplest way**.  
+e.g. The media node has a copy: [Get hash of an image](http://nodes.chuci.info/media.html) 
 
 
 -------------
